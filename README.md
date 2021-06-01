@@ -16,11 +16,10 @@
 =================================
 * Test firewall rules
 
-  Firewall: 192.168.2.20/24
-  Test host: 192.168.2.40/24
-  Services running on Firewall vm: SSH server (22), Web server(8080), portmapper(111)
-
-  SPOOFED_IP_ADDR = "10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, 169.254.0.0/16" (exclude any if connected to them)
+  - Firewall: 192.168.2.20/24
+  - Test host: 192.168.2.40/24
+  - Services running on Firewall vm: SSH server (22), Web server (8080), portmapper (111)
+  - SPOOFED_IP_ADDR = "10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, 169.254.0.0/16" (exclude any if connected to them)
 
 1. Set the default policies
 
