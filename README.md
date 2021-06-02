@@ -94,3 +94,7 @@
 
 
 **Setting up signature-based IDS system using snort**
+
+* IDS vm `snort -d -i eth0 -l ~/lab -h 192.168.2.40/24 -c snort.conf`
+* Check IDS alert file `tail -F alert`
+
